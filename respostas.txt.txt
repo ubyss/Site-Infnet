@@ -1,0 +1,94 @@
+
+RESPOSTAS PARA O ASSESSMENT 
+
+
+"Quando é recomendando a criação de um site separado para mobile? Seria
+este o caso deste site da GK Fashion?"
+
+== É recomendado quando você tem diferentes versões do site, porque com a utilização das @medias,
+pode-se utilizar um modelo para os dois;
+Não seria, pois não há outra versão, podendo assim utilizar-se o metódo responsivo.
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+"No caso de um CSS específico para print, como ele deve ser inserido?"
+
+== utilizando a midia:
+@MEDIA PRINT {CSS}
+
+------------------------------------------------------------------------------------------------------------------------------
+
+"O elemento audio permite como elemento‐filho o elemento source. Quais são
+os atributos que o source permite e qual conteúdo eles suportam? Quais os
+outros atributos do elemento audio e quando devem ser utilizados?"
+
+
+src - Endereço do arquivo de mídia a ser incorporado 
+
+type - Informa ao navegador o tipo de mídia, para que possa decidir o que fazer. Permite ainda o parâmetro codecs.  
+
+media - Destina-se a informar ao navegador o tipo de mídia.  
+
+ 
+
+Outros atributos:  
+
+preload - carrega arquivos grandes  
+
+autoplay - reproduz o áudio automaticamente  
+
+loop - reproduz o áudio repetidamente automaticamente  
+
+controls - mostra os controles padrões para o áudio na página  
+
+------------------------------------------------------------------------------------------------------------------------------
+
+"O elemento video permite como elemento‐filho o elemento source. Quais são
+os atributos que o source permite e qual conteúdo eles suportam? Quais os
+outros atributos do elemento video e quando devem ser utilizados?"
+
+
+src - Endereço do arquivo de mídia a ser incorporado
+
+type - Informa ao navegador o tipo do conteúdo, para que possa decidir o que fazer.
+
+media - Destina-se a informar ao navegador o tipo de mídia.  
+
+  
+
+Outros atributos:  
+
+preload - carrega arquivos grandes  
+
+autoplay - reproduz o vídeo automaticamente  
+
+loop - reproduz o vídeo repetidamente automaticamente  
+
+controls - mostra os controles padrões para o vídeo na página  
+
+------------------------------------------------------------------------------------------------------------------------------
+
+"No caso do canvas, HTML 5 nunca, em momento algum, fez qualquer
+animação. Isso porquê o HTML 5 é uma simples linguagem de marcação. Dessa
+forma, o que é necessário para criar animações com HTML5? O que são APIs do
+HTML5?"
+
+As animações são feitas principalmente com Javascript, mas com CSS conseguimos obter alguns resultados também. As APIs (Application Programming Interfaces) são construções disponíveis nas linguagens de programação que permitem a desenvolvedores criar funcionalidades complexas mais facilmente. As versões anteriores do HTML se tratavam apenas de marcação, entretanto, com o surgimento do HTML5, novas funcionalidades foram criadas e encapsuladas em APIs que são acessadas através do Javascript.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+"Como o CSS3 pode ser aplicado na aparência da multimídia HTML5.  
+Demonstre com um exemplo."
+
+podem ser aplicados como qualquer outra mídia no html5, sendo assim pode-se dar estilo, animação e outras functionalidades.
+podevemos ver isso no Youtube por exemplo, lá a midia são alteradas facilmente com várias outras functionalidades. Por exemplo, na aba principal, quando passamos o mouse por cima 
+de um vídeo, pode-se usar um hover para inicia-las; tamanho e posição também podem ser alterados via css3
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
